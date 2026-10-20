@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sintaxis de CSS</title>
+</head>
+<body> 
+    <style>
+   h1{
+     background-color: blue;
+    
+   }
+   #primerparrafo{
+       color: aqua;
+   }
+   .gruposparrafos{
+    color: blueviolet;
+   }
+   input[type="text"]{
+         background-color: aquamarine;
+        color: blueviolet;
+   }
+    input[type="number"]{
+        background-color: brown;
+        color: aqua;
+    }
+
+    h1:hover{
+              color: black;
+              font-size: large;
+    }
+    #contenedor p{
+        color: rgb(248, 203, 144);
+    }
+    #contenedor p:first-child{
+        color: rgb(3, 151, 32);
+    }
+     #contenedor p:last-child{
+        color: rgb(62, 1, 84);
+    }
+    #contenedor-p:nth-child(even){
+        color:rgb(129, 22, 10)
+    }
+    #contenedor p:first-child{
+        color:rgb(160, 2, 76)
+    }
+
+
+     #contenedor-dos {color: rgb(17, 3, 65);
+        }
+    #contenedor-dos:first-child{
+        color: rgb(3, 151, 32);
+    }
+     #contenedor-dos:last-child{
+        color: rgb(62, 1, 84);
+    }
+    #contenedor-dos:nth-child(odd){
+        color:rgb(114, 110, 5)
+    }
+    #contenedor-dos:first-child{
+        color:rgb(160, 2, 76)
+    }
+</style>
+</head>
+<body>
+    
+    <h1>Repaso de la Sintaxis de CSS</h1>
+   <div id="repaso">
+    <p id="primerparrafo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque accusantium magni accusamus ullam dolores! Nesciunt earum odio amet, eaque eos totam ipsa aut pariatur, mollitia incidunt, cumque cum ratione molestiae.
+    </p>
+    <p class="gruposparrafos">
+ Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum blanditiis commodi illum sequi laborum inventore, minus dolorum similique temporibus deserunt facere, corrupti dolorem eligendi? Maxime animi facilis quia? Fugit, sint.
+    </p>
+       
+
+     <p class="gruposparrafos">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, perferendis consequuntur. Voluptatibus, atque! Laborum doloremque aut perferendis neque dolore vero id quo eveniet iste similique minima deserunt numquam, officiis quam?
+     </p>
+
+   </div>
+
+     <input type="text" name="nombre" id="nombre">
+
+     <input type="number" name="datos" id="datos">
+
+    
+
+     
+    
+
+     <h2>
+        Selectores diversos
+     </h2>
+
+     <div id="contenedor">
+        <p>
+            Britany Italy Gonzalez Martinez
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet officiis libero maiores ipsa. Aperiam ipsa facilis harum maxime, voluptates error magni corporis perspiciatis est? Similique id autem magni impedit velit?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti maiores, nisi debitis consequuntur earum sed dicta, assumenda blanditiis nobis repudiandae tempora iure. Non pariatur eveniet quaerat voluptatum facere voluptatibus officiis.
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea eaque omnis animi rerum est neque aliquid maxime, quod, aliquam, esse unde aut cumque dicta quae quidem eius iure fugit ullam.
+        </p>
+        <p>
+            Universidad del norte 
+        </p>
+     </div>
+     
+       <div id="contenedor-dos">
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum modi inventore est sint, quasi porro beatae, quo repellat corporis minus vitae. Dolorem, minus? Saepe mollitia labore placeat praesentium id eius.
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet officiis libero maiores ipsa. Aperiam ipsa facilis harum maxime, voluptates error magni corporis perspiciatis est? Similique id autem magni impedit velit?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti maiores, nisi debitis consequuntur earum sed dicta, assumenda blanditiis nobis repudiandae tempora iure. Non pariatur eveniet quaerat voluptatum facere voluptatibus officiis.
+        </p>
+
+     </div>
+
+
+
+</body>
+</html>
+    
+    
+
+
